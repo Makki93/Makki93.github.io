@@ -33,7 +33,7 @@ Do not turn preparation status into an App Store release or add unapproved beta 
 - `assets/pawference.png`: unchanged icon from the Pawference app/site; its
   provenance is documented in the app repository's `docs/APP_ICON.md`.
 - `assets/gallerytidy.png`: unchanged shared GalleryTidy iOS/macOS app icon.
-- `assets/waitasec.svg`: unchanged public WaitASec website icon.
+- `assets/waitasec.svg`: WaitASec pause-and-wave icon (variant A), selected by the owner on 2026-10-02. The square source is maintained in the private app repository at `docs/brand/appicon-pause-wave.svg`.
 - `assets/brand.svg`: simple vector monogram created for this website.
 
 These app marks identify the owner's apps; they are not stock imagery or permission

@@ -1,1 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="18" fill="#6552c8"/><rect x="21" y="17" width="8" height="30" rx="4" fill="#fff"/><rect x="35" y="17" width="8" height="30" rx="4" fill="#fff"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+<title id="title">WaitASec — pause with breathing wave</title>
+<defs>
+<clipPath id="canvas"><rect width="64" height="64" rx="18"/></clipPath>
+<linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7a65dd"/><stop offset="1" stop-color="#5140aa"/></linearGradient>
+<linearGradient id="water" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#b8f3e4"/><stop offset="1" stop-color="#84b6e6"/></linearGradient>
+<clipPath id="bars"><rect x="20" y="16" width="9" height="32" rx="4.5"/><rect x="35" y="16" width="9" height="32" rx="4.5"/></clipPath>
+</defs>
+<g clip-path="url(#canvas)"><rect width="64" height="64" fill="url(#background)"/>
+<g clip-path="url(#bars)"><rect width="64" height="64" fill="#fafaff"/><path d="M0 35 C8 27 16 43 24 35 S40 43 48 35 S60 43 64 35 V64 H0Z" fill="url(#water)"/></g>
+</g>
+</svg>
