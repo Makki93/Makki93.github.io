@@ -4,7 +4,7 @@ Public GitHub Pages home for three independently maintained app websites:
 
 | App | Website | Support | App privacy |
 | --- | --- | --- | --- |
-| Pawference | https://makki93.github.io/pawference-site/ | https://makki93.github.io/pawference-site/support.html | Pending before external beta; its current privacy page covers the website only |
+| Pawference | https://makki93.github.io/Pawference-Info/ | https://makki93.github.io/Pawference-Info/support.html | https://makki93.github.io/Pawference-Info/app-privacy.html |
 | GalleryTidy | https://makki93.github.io/GalleryTidy-Info/ | https://makki93.github.io/GalleryTidy-Info/ | https://makki93.github.io/GalleryTidy-Info/privacy.html |
 | WaitASec | https://makki93.github.io/WaitASec-Info/ | https://makki93.github.io/WaitASec-Info/#support | https://makki93.github.io/WaitASec-Info/privacy/ |
 
@@ -48,3 +48,12 @@ python3 -m http.server 18766 --bind 127.0.0.1 --directory .
 Public inquiries through GitHub issues may disclose personal data. Prefer the
 business email for private support; never commit credentials, device identifiers,
 private photos, diagnostics or internal handoff documents here.
+
+## Pawference URL compatibility
+
+The app website repository was renamed from `pawference-site` to `Pawference-Info`.
+The `pawference-site/` directory in this overview repository redirects the old
+home, support, website privacy, app privacy and legal-notice URLs to the new site.
+Keep these files: installed app builds and existing App Store Connect metadata
+may still use the old addresses. GitHub redirects repository URLs after a rename,
+but does not redirect GitHub Pages project URLs automatically.
