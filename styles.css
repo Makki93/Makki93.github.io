@@ -16,11 +16,12 @@ nav{display:flex;gap:24px;flex-wrap:wrap}
 .hero{display:grid;grid-template-columns:1.25fr 1fr;gap:60px;align-items:end;padding-block:48px 54px}
 h1{font-size:clamp(2.8rem,5.7vw,4.8rem);line-height:1.07;letter-spacing:-.065em;font-weight:760;margin:0;overflow-wrap:break-word}
 .hero p{font-size:1.18rem;max-width:350px;color:var(--muted);margin:0 0 8px;line-height:1.75}
-.app-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.app-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
 .app-card{--card-ink:var(--ink);display:flex;flex-direction:column;min-width:0;background:white;border:1px solid var(--line);border-radius:26px;padding:27px;color:var(--card-ink)}
 .pawference{background:#fff4eb;border-color:#efdfd3;--card-ink:#643844}
 .gallerytidy{background:#edf4ff;border-color:#dbe4f0;--card-ink:#293f6e}
 .waitasec{background:#f1eefb;border-color:#e1dcf1;--card-ink:#514078}
+.gaudikistn{background:#f8f4ec;border-color:#e1d7c9;--card-ink:#805438}
 .card-top{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:27px}
 .app-icon{width:72px;height:72px;flex:none;border-radius:18px;display:block;box-shadow:0 8px 18px #243d3910}
 .platform{font-size:.73rem;font-weight:600;text-align:right;max-width:120px;line-height:1.5}
