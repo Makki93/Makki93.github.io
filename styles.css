@@ -21,7 +21,7 @@ h1{font-size:clamp(2.8rem,5.7vw,4.8rem);line-height:1.07;letter-spacing:-.065em;
 .pawference{background:#fff4eb;border-color:#efdfd3;--card-ink:#643844}
 .gallerytidy{background:#edf4ff;border-color:#dbe4f0;--card-ink:#293f6e}
 .waitasec{background:#f1eefb;border-color:#e1dcf1;--card-ink:#514078}
-.gaudikistn{background:#f8f4ec;border-color:#e1d7c9;--card-ink:#805438}
+.zwinkerbox{background:#f8f4ec;border-color:#e1d7c9;--card-ink:#805438}
 .card-top{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:27px}
 .app-icon{width:72px;height:72px;flex:none;border-radius:18px;display:block;box-shadow:0 8px 18px #243d3910}
 .platform{font-size:.73rem;font-weight:600;text-align:right;max-width:120px;line-height:1.5}
